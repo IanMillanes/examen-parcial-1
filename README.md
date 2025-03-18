@@ -35,3 +35,18 @@ Abra su archivo README para que agregue las instrucciones ejecutadas hasta el mo
 Mismo procedimiento que el anterior.
 Guarde los archivos y recupere los cambios a su carpeta local
 Nos vamos al cmd y realizamos un “git pull” para jalar los cambios a la carpeta local
+
+7) Creación y uso de ramas
+Creen una nueva rama para agregar otra funcionalidad, la cual debe llamarse rama-1
+“git branch rama-1” para crear la nueva rama y “git checkout rama-1 para moverse a ella”
+Cree dos archivos nuevos
+nuevamente utilizamos el echo “texto” > archivo
+En la rama-1, agregue los dos archivos recién creados
+“git add .” para agregar todos los archivos pendientes por agregar
+Confirmen los cambios y subanlos a GitHub.
+“git commit” y “git push origin rama-1” para subirlo pero mantener la rama
+Regrese a la rama main y fusione la rama-1 con ella.
+“git checkout master” y “git merge rama-1”
+Confirme que la fusión fue realizada exitosamente
+“git log”
+Asegúrese que README tenga todas las instrucciones realizadas, guardelo y suba todos los cambios al repositorio de GitHub.
