@@ -27,3 +27,11 @@ Para esto, nos ubicamos en nuestro cmd y ejecutamos el comando “git pull” pa
 Edite dos de los cuatro archivos de su carpeta
 Abra su archivo README para que agregue las instrucciones ejecutadas hasta el momento
 Guarde, haga un commit y suba los cambios a GitHub
+
+6) Control y seguimiento remoto
+Edite dos de los cuatros archivos de su carpeta
+Presionamos el archivo a editar en GitHub, ubicamos un icono de un lápiz con el que vamos a editar el archivo, al agregar los cambios presionamos el botón verde para hacer commit.
+Abra su archivo README para que agregue las instrucciones ejecutadas hasta el momento, incluida las instrucciones para la línea siguiente.
+Mismo procedimiento que el anterior.
+Guarde los archivos y recupere los cambios a su carpeta local
+Nos vamos al cmd y realizamos un “git pull” para jalar los cambios a la carpeta local
